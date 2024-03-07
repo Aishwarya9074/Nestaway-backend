@@ -4,12 +4,12 @@ const userSchema=Schema(
     {
     username:{
         type:String,
-        required:True,
+        required:true,
         trim:true
     },
    useremail:{
         type:String,
-        required:True,
+        required:true,
         unique:true
     },
     userpassword:{
